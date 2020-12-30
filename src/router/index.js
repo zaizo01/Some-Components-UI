@@ -30,6 +30,11 @@ const routes = [
     name: 'Forms',
     component: () => import('../views/Forms.vue')
   },
+  {
+    path: '/validations',
+    name: 'Validations',
+    component: () => import('../views/Validations.vue')
+  },
 ]
 
 const router = new VueRouter({
